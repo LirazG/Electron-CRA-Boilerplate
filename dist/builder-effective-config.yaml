@@ -1,0 +1,8 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.liraz.electroncrabuilder
+productName: electron-cra-boilerplate-liraz
+mac:
+  category: public.app-category.utilities
+electronVersion: 8.2.1

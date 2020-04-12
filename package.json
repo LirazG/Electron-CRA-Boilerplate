@@ -1,0 +1,32 @@
+{
+  "name": "electron-cra-boilerplate-liraz",
+  "description": "Electron + Create React App + Electron Builder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Liraz Gur Arie",
+    "email": "lirazga1993@gmail.com"
+  },
+  "private": true,
+  "scripts": {
+      "electron": "electron .",
+      "client": "yarn --cwd client start",
+      "preinstall": "yarn --cwd client install",
+      "postinstall": "electron-builder install-app-deps",
+      "pack": "electron-builder --dir",
+      "dist": "electron-builder",
+      "predist": "yarn --cwd client build"
+  },
+  "devDependencies": {
+      "electron": "^8.2.1",
+      "electron-builder": "^22.4.1"
+  },
+  "build": {
+    "appId": "com.liraz.electroncrabuilder",
+    "productName": "electron-cra-boilerplate-liraz",
+    "mac": {
+      "category": "public.app-category.utilities"
+    }
+  }
+}
