@@ -5,8 +5,8 @@
   "main": "index.js",
   "license": "MIT",
   "author": {
-    "name": "Liraz Gur Arie",
-    "email": "lirazga1993@gmail.com"
+    "name": "Your name",
+    "email": "youremail@mail.com"
   },
   "private": true,
   "scripts": {
@@ -23,8 +23,8 @@
       "electron-builder": "^22.4.1"
   },
   "build": {
-    "appId": "com.liraz.electroncrabuilder",
-    "productName": "electron-cra-boilerplate-liraz",
+    "appId": "com.author.yourapp",
+    "productName": "productname",
     "mac": {
       "category": "public.app-category.utilities"
     }
